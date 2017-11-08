@@ -8,6 +8,7 @@ The functions are currently grouped into three files:
   + _algebra.py
   + _euler.py
   + _num2words.py
+
 They can each be used independently.
 
 ## Contributing
