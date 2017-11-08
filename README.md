@@ -1,4 +1,4 @@
-## Euler Help (euler_help)
+## EulerHelp (euler_help)
 
 A collection of helper functions for Project Euler, most of which I wouldn't expect to have much applicability outside Project Euler. For information about Project Euler head here: <https://projecteuler.net/about>.
 
@@ -21,3 +21,7 @@ They can each be used independently.
 ## Credits
 
 Originally put together by [Jules Lewis](https://github.com/jules-lewis "Jules' Profile")
+
+## License
+
+EulerHelp is licensed under the [MIT Licence](https://github.com/jules-lewis/euler_help/blob/master/LICENSE "MIT Licence")
