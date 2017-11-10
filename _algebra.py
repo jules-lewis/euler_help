@@ -5,6 +5,8 @@ solving Euler Net pronlems.
 -------------------------------------------------------------------------
 '''
 import math
+import itertools
+compress = itertools.compress
 
 def sum_divisible_by(upper_bound, divisor):
     '''sums all positive integers from 1 to upper_bound,
