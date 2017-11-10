@@ -52,6 +52,18 @@ def get_proper_divisors(x):
     return get_factors(x)[:-1]
 
 
+def get_primes(cap):
+    '''Returns  a list of primes < cap for cap > 2. 
+       Sieve posted by 'Bruno Astrolino' on StackOverflow -
+       see https://stackoverflow.com/a/46635266
+    '''
+    sieve = bytearray([True]) * (cap//2+1)
+    for i in range(1,int(cap**0.5)//2+1):
+        if sieve[i]:
+            sieve[2*i*(i+1)::2*i+1] = bytearray((cap//2-2*i*(i+1))//(2*i+1)+1)
+    return [2,*compress(range(3,cap,2), sieve[1:])]
+
+
 def is_prime(x):
     '''checks whether a number is prime by checking that it has
        exactly two factors. Assumes you'll pass a positive integer.
