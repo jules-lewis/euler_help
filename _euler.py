@@ -22,3 +22,12 @@ def is_pandigital_10(s):
         if ''.join(sorted(s)) == '0123456789':
             return True
     return False
+
+def is_palindrome(s):
+    '''Return True if the passed string is palindromic
+    '''
+    if len(s):
+        if s == s[::-1]:
+            return True
+    return False
+
