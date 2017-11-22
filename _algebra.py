@@ -187,3 +187,7 @@ def is_hexagonal(num):
     p = (math.sqrt((8 * num) + 1) + 1) / 4
     return p == int(p)
 
+def get_number_of_digits(n):
+    '''Returns the number of digits in positive integer n.
+    '''
+    return int(math.log10(n))+1
