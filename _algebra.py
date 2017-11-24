@@ -146,16 +146,6 @@ def get_lowest_common_multiple(seedlist):
     return product
 
 
-def get_highest_common_factor(x, y):
-    '''Takes two numbers and returns the highest factor of both
-    '''
-    x_factors = sorted(get_factors(x), reverse=True)
-    for factor in x_factors:
-        if y % factor == 0:
-            return factor
-    return 1
-
-
 def simplify_fraction(fraction):
     '''Takes a tuple of two positive integers (nominator, denominator),
        and returns a tuple with the fraction in its simplest form
@@ -187,3 +177,7 @@ def is_hexagonal(num):
     p = (math.sqrt((8 * num) + 1) + 1) / 4
     return p == int(p)
 
+def get_number_of_digits(n):
+    '''Returns the number of digits in positive integer n.
+    '''
+    return int(math.log10(n))+1
