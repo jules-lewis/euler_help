@@ -146,16 +146,6 @@ def get_lowest_common_multiple(seedlist):
     return product
 
 
-def get_highest_common_factor(x, y):
-    '''Takes two numbers and returns the highest factor of both
-    '''
-    x_factors = sorted(get_factors(x), reverse=True)
-    for factor in x_factors:
-        if y % factor == 0:
-            return factor
-    return 1
-
-
 def simplify_fraction(fraction):
     '''Takes a tuple of two positive integers (nominator, denominator),
        and returns a tuple with the fraction in its simplest form
