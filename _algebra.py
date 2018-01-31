@@ -4,7 +4,7 @@ A collection of (hopefully) useful algebraic functions, to use when
 solving Euler Net pronlems.
 -------------------------------------------------------------------------
 '''
-from import math import sqrt, log10
+from math import sqrt, log10
 import itertools
 compress = itertools.compress
 
