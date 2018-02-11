@@ -1,7 +1,7 @@
 '''
 -------------------------------------------------------------------------
 A collection of (hopefully) useful algebraic functions, to use when
-solving Euler Net pronlems.
+solving Euler Net problems.
 -------------------------------------------------------------------------
 '''
 from math import sqrt, log10

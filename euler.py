@@ -5,7 +5,6 @@ problems, but probably don't have a wider application.
 -------------------------------------------------------------------------
 '''
 
-
 def is_pandigital_9(s):
     '''Checks whether a string contains the digits 1-9 only.
     '''
