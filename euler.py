@@ -1,7 +1,7 @@
 '''
 -------------------------------------------------------------------------
 A collection of functions that have been helpful in solving Euler Net
-problems, but probably don't have a wider application.
+problems, but probably don't have a wider application!
 -------------------------------------------------------------------------
 '''
 
